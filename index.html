@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<title>New Orleans Velvet — Secret Vault</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Age Gate -->
+<div id="age-gate">
+  <h2>NEW ORLEANS VELVET</h2>
+  <p>This site contains adult content. Please confirm that you are 18 years of age or older.</p>
+  <div class="age-btns">
+    <button onclick="enterSite()" class="primary">I am 18 or older</button>
+    <button onclick="location.href='https://google.com'">Leave</button>
+  </div>
+</div>
+
+<!-- Header -->
+<header>
+  <a href="#" class="logo">NEW ORLEANS <span>VELVET</span></a>
+  
+  <nav>
+    <a href="#archives">Archives</a>
+    <a href="#pricing">Access</a>
+    <a href="#paywall">Secret Vault</a>
+  </nav>
+
+  <div class="header-right">
+    <div class="online-indicator">
+      <div class="pulse-dot"></div>
+      <span>32 online</span>
+    </div>
+    <div class="profile-icon" onclick="openCheckout('Anonymous User Profile')">
+      <svg viewBox="0 0 24 24">
+        <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+      </svg>
+    </div>
+  </div>
+</header>
+
+<!-- Hero -->
+<section class="hero">
+  <div class="hero-content">
+    <h1>Private & Secret<br><span>Archives Revealed</span></h1>
+    <p>Access the most exclusive and hidden collections from New Orleans. Unlock strictly confidential photos, secret videos, and private vaults. Your identity and access are completely protected.</p>
+    <div class="cta-group">
+      <button class="btn-primary" onclick="document.getElementById('pricing').scrollIntoView({behavior:'smooth'})">Get Private Access</button>
+      <button class="btn-primary" style="background:transparent;border:1px solid var(--accent);box-shadow:none;color:var(--accent)" onclick="document.getElementById('archives').scrollIntoView({behavior:'smooth'})">Explore Archives</button>
+    </div>
+  </div>
+</section>
+
+<!-- Archives -->
+<section class="section" id="archives">
+  <h2 class="section-title">Exclusive <span>Secret Vaults</span></h2>
+  <div class="grid">
+    
+    <!-- Card 1 -->
+    <div class="card">
+      <div class="card-media">
+        <div class="side-strip">
+          <div class="blur-item" onclick="location.href='archive-scarlett.html'">
+            <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=100&q=80" alt="Blur">
+            <div class="lock-overlay">🔒</div>
+          </div>
+          <div class="blur-item" onclick="location.href='archive-scarlett.html'">
+            <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=100&q=80" alt="Blur">
+            <div class="lock-overlay">🔒</div>
+          </div>
+          <div class="blur-item" onclick="location.href='archive-scarlett.html'">
+            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=100&q=80" alt="Blur">
+            <div class="lock-overlay">🔒</div>
+          </div>
+          <div class="blur-item" onclick="location.href='archive-scarlett.html'">
+            <div class="video-bg">
+              <div class="play-icon">▶</div>
+              <div class="video-text">VIDEO</div>
+            </div>
+          </div>
+        </div>
+        <a class="main-photo" href="archive-scarlett.html" aria-label="Open Scarlett V. archive">
+          <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=600&q=80" alt="Archive 1" loading="lazy">
+          <div class="badge">Hot</div>
+        </a>
+      </div>
+      <div class="card-info">
+        <div class="header-row">
+          <h3>Scarlett V.</h3>
+          <div class="location">🔒 Classified</div>
+        </div>
+        <p>2.4k unlocks · Secret Photos & Videos</p>
+        <a class="btn-sub archive-link" href="archive-scarlett.html">Access Content</a>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="card">
+      <div class="card-media">
+        <div class="side-strip">
+          <div class="blur-item" onclick="location.href='archive-luna.html'">
+            <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=100&q=80" alt="Blur">
+            <div class="lock-overlay">🔒</div>
+          </div>
+          <div class="blur-item" onclick="location.href='archive-luna.html'">
+            <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=100&q=80" alt="Blur">
+            <div class="lock-overlay">🔒</div>
+          </div>
+          <div class="blur-item" onclick="location.href='archive-luna.html'">
+            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=100&q=80" alt="Blur">
+            <div class="lock-overlay">🔒</div>
+          </div>
+          <div class="blur-item" onclick="location.href='archive-luna.html'">
+            <div class="video-bg">
+              <div class="play-icon">▶</div>
+              <div class="video-text">VIDEO</div>
+            </div>
+          </div>
+        </div>
+        <a class="main-photo" href="archive-luna.html" aria-label="Open Luna M. archive">
+          <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=600&q=80" alt="Archive 2" loading="lazy">
+        </a>
+      </div>
+      <div class="card-info">
+        <div class="header-row">
+          <h3>Luna M.</h3>
+          <div class="location">🔒 Classified</div>
+        </div>
+        <p>5.1k unlocks · Daily Hidden Drops</p>
+        <a class="btn-sub archive-link" href="archive-luna.html">Access Content</a>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="card">
+      <div class="card-media">
+        <div class="side-strip">
+          <div class="blur-item" onclick="location.href='archive-jade.html'">
+            <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=100&q=80" alt="Blur">
+            <div class="lock-overlay">🔒</div>
+          </div>
+          <div class="blur-item" onclick="location.href='archive-jade.html'">
+            <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=100&q=80" alt="Blur">
+            <div class="lock-overlay">🔒</div>
+          </div>
+          <div class="blur-item" onclick="location.href='archive-jade.html'">
+            <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=100&q=80" alt="Blur">
+            <div class="lock-overlay">🔒</div>
+          </div>
+          <div class="blur-item" onclick="location.href='archive-jade.html'">
+            <div class="video-bg">
+              <div class="play-icon">▶</div>
+              <div class="video-text">VIDEO</div>
+            </div>
+          </div>
+        </div>
+        <a class="main-photo" href="archive-jade.html" aria-label="Open Jade R. archive">
+          <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&q=80" alt="Archive 3" loading="lazy">
+          <div class="badge new">New</div>
+        </a>
+      </div>
+      <div class="card-info">
+        <div class="header-row">
+          <h3>Jade R.</h3>
+          <div class="location">🔒 Classified</div>
+        </div>
+        <p>800 unlocks · VIP Private Vault</p>
+        <a class="btn-sub archive-link" href="archive-jade.html">Access Content</a>
+      </div>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="card">
+      <div class="card-media">
+        <div class="side-strip">
+          <div class="blur-item" onclick="location.href='archive-mia.html'">
+            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=100&q=80" alt="Blur">
+            <div class="lock-overlay">🔒</div>
+          </div>
+          <div class="blur-item" onclick="location.href='archive-mia.html'">
+            <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=100&q=80" alt="Blur">
+            <div class="lock-overlay">🔒</div>
+          </div>
+          <div class="blur-item" onclick="location.href='archive-mia.html'">
+            <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=100&q=80" alt="Blur">
+            <div class="lock-overlay">🔒</div>
+          </div>
+          <div class="blur-item" onclick="location.href='archive-mia.html'">
+            <div class="video-bg">
+              <div class="play-icon">▶</div>
+              <div class="video-text">VIDEO</div>
+            </div>
+          </div>
+        </div>
+        <a class="main-photo" href="archive-mia.html" aria-label="Open Mia K. archive">
+          <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=600&q=80" alt="Archive 4" loading="lazy">
+        </a>
+      </div>
+      <div class="card-info">
+        <div class="header-row">
+          <h3>Mia K.</h3>
+          <div class="location">🔒 Classified</div>
+        </div>
+        <p>3.2k unlocks · Custom Secret Requests</p>
+        <a class="btn-sub archive-link" href="archive-mia.html">Access Content</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Paywall Demo -->
+<section class="paywall-section" id="paywall">
+  <h2 class="section-title">The <span>Secret Vault</span></h2>
+  <div class="paywall-container">
+    <div class="paywall-content">
+      <div class="blur-bg"></div>
+      <div class="paywall-overlay">
+        <div class="lock-icon">🔒</div>
+        <h3>Strictly Confidential</h3>
+        <p>This private media is strictly locked. Subscribe to unlock exclusive, uncensored photos and secret videos from New Orleans.</p>
+        <button class="btn-primary" style="padding:14px 32px;font-size:14px;width:100%" onclick="openCheckout('Unlock Secret Content')">Unlock Now</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Pricing -->
+<section class="section" id="pricing">
+  <h2 class="section-title">Choose Your <span>Access Level</span></h2>
+  <div class="pricing-grid">
+    <div class="price-card">
+      <h3>Basic</h3>
+      <div class="price">$9<span>.99 / mo</span></div>
+      <ul>
+        <li>Access to basic archives</li>
+        <li>Unlock 2 secret vaults</li>
+        <li>Ad-free browsing experience</li>
+        <li>Standard support</li>
+      </ul>
+      <button class="btn-price" onclick="openCheckout('Basic Plan')">Select Basic</button>
+    </div>
+    <div class="price-card popular">
+      <h3>Premium</h3>
+      <div class="price">$19<span>.99 / mo</span></div>
+      <ul>
+        <li>All hidden photos & videos</li>
+        <li>Uncensored secret content</li>
+        <li>Live streams access</li>
+        <li>Priority support</li>
+        <li>Unlimited archive unlocks</li>
+      </ul>
+      <button class="btn-price" onclick="openCheckout('Premium Plan')">Select Premium</button>
+    </div>
+    <div class="price-card">
+      <h3>VIP</h3>
+      <div class="price">$49<span>.99 / mo</span></div>
+      <ul>
+        <li>Everything in Premium</li>
+        <li>Custom personal requests</li>
+        <li>Private 1-on-1 secure chat</li>
+        <li>Early access to new drops</li>
+        <li>Personal concierge</li>
+      </ul>
+      <button class="btn-price" onclick="openCheckout('VIP Plan')">Select VIP</button>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="links">
+    <a href="#">Terms of Service</a>
+    <a href="#">Privacy Policy</a>
+    <a href="#">Refund Policy</a>
+    <a href="#">Support</a>
+  </div>
+  <p>© 2026 New Orleans Velvet. All rights reserved. 18+</p>
+</footer>
+
+<!-- FLOATING CHAT BUTTON -->
+<div class="chat-fab" onclick="openChat()">
+  <svg viewBox="0 0 24 24">
+    <path d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM6 9h12v2H6V9zm8 5H6v-2h8v2zm4-6H6V6h12v2z"/>
+  </svg>
+</div>
+
+<!-- CHAT MODAL -->
+<div class="modal-overlay" id="chat-modal">
+  <div class="modal-content">
+    <div class="chat-lock-icon">🔒</div>
+    <h3>Chat Access Locked</h3>
+    <p>You can only access private chats with models after your first payment. Complete a subscription to start messaging.</p>
+    <button class="btn-primary" style="padding:14px 32px;font-size:14px;width:100%;margin-bottom:12px" onclick="closeChatAndScroll()">View Plans & Unlock</button>
+    <button class="close-modal" onclick="closeChat()">Close</button>
+  </div>
+</div>
+
+<!-- CHECKOUT MODAL (CRYPTO ONLY) -->
+<div class="modal-overlay" id="checkout-modal">
+  <div class="modal-content">
+    
+    <!-- State 1: Form -->
+    <div id="checkout-form-view">
+      <h3 id="modal-title">Checkout</h3>
+      <p>Send the exact amount in Crypto to the address below. Your access will be granted automatically.</p>
+      
+      <div class="crypto-box">
+        <div style="font-size: 11px; color: #a39899; margin-bottom: 4px; text-transform: uppercase;">USDT (TRC20) / BTC / TON</div>
+        <div class="crypto-addr" onclick="copyAddress()" title="Click to copy">TQrY8bk4k7N1c8D9xW2m3K5vP6zL7sA8bC</div>
+        <div style="font-size: 12px; color: #fff;">Amount: <strong id="pay-amount" style="color: var(--gold); font-size: 16px;">$19.99</strong></div>
+      </div>
+
+      <div style="text-align: left; font-size: 12px; color: #a39899; margin-bottom: 8px; margin-left:4px;">Email for access instructions:</div>
+      <input type="email" id="pay-email" class="email-input" placeholder="your@email.com" required>
+      
+      <div id="email-error" style="color: #ff3333; font-size: 12px; display: none; margin-bottom: 12px; text-align: left; margin-left: 4px;">Please enter a valid email address.</div>
+
+      <button class="btn-primary" id="pay-btn" style="padding:14px 32px;font-size:14px;width:100%;margin-bottom:16px" onclick="confirmCryptoPayment()">I Have Paid — Unlock Access</button>
+      <button class="close-modal" onclick="document.getElementById('checkout-modal').classList.remove('on')">Cancel</button>
+    </div>
+
+    <!-- State 2: Success -->
+    <div id="checkout-success-view" style="display: none;">
+      <div style="font-size: 48px; margin-bottom: 16px;">✅</div>
+      <h3>Payment Confirmed</h3>
+      <p>We've sent your private access instructions and magic link to <strong id="success-email" style="color: var(--gold);"></strong>.</p>
+      <p style="font-size: 12px; color: #a39899;">Please check your inbox (and spam folder). You can close this window now.</p>
+      <button class="btn-primary" style="padding:14px 32px;font-size:14px;width:100%;margin-top:16px" onclick="document.getElementById('checkout-modal').classList.remove('on')">Done</button>
+    </div>
+
+  </div>
+</div>
+
+<!-- Floating Reviews Ticker -->
+<div class="ticker-wrap">
+  <div class="ticker">
+    <!-- Group 1 -->
+    <div class="ticker__item"><span class="user">Anon#8472:</span> <span class="msg">good job, guys. highly recommend.</span></div>
+    <div class="ticker__item"><span class="user">Anon#1120:</span> <span class="msg">😮‍💨😮‍💨😮‍💨</span></div>
+    <div class="ticker__item"><span class="user">Anon#9931:</span> <span class="msg">best site for private content, hands down.</span></div>
+    <div class="ticker__item"><span class="user">Anon#4401:</span> <span class="msg">verified 100%. discreet billing is a lifesaver.</span></div>
+    <div class="ticker__item"><span class="user">Anon#3320:</span> <span class="msg">just unlocked Luna's vault. worth every penny.</span></div>
+    <div class="ticker__item"><span class="user">Anon#7712:</span> <span class="msg">🔥 absolute best vault in NOLA.</span></div>
+    <div class="ticker__item"><span class="user">Anon#0084:</span> <span class="msg">how is this so easy to use? 10/10.</span></div>
+    <div class="ticker__item"><span class="user">Anon#6655:</span> <span class="msg">💎 premium quality only.</span></div>
+    <div class="ticker__item"><span class="user">Anon#2134:</span> <span class="msg">super fast access, no bs.</span></div>
+    <div class="ticker__item"><span class="user">Anon#5542:</span> <span class="msg">the secret vault is insane 😮‍💨</span></div>
+    
+    <!-- Group 2 -->
+    <div class="ticker__item"><span class="user">Anon#8472:</span> <span class="msg">good job, guys. highly recommend.</span></div>
+    <div class="ticker__item"><span class="user">Anon#1120:</span> <span class="msg">😮‍💨😮‍💨😮‍💨</span></div>
+    <div class="ticker__item"><span class="user">Anon#9931:</span> <span class="msg">best site for private content, hands down.</span></div>
+    <div class="ticker__item"><span class="user">Anon#4401:</span> <span class="msg">verified 100%. discreet billing is a lifesaver.</span></div>
+    <div class="ticker__item"><span class="user">Anon#3320:</span> <span class="msg">just unlocked Luna's vault. worth every penny.</span></div>
+    <div class="ticker__item"><span class="user">Anon#7712:</span> <span class="msg">🔥 absolute best vault in NOLA.</span></div>
+    <div class="ticker__item"><span class="user">Anon#0084:</span> <span class="msg">how is this so easy to use? 10/10.</span></div>
+    <div class="ticker__item"><span class="user">Anon#6655:</span> <span class="msg">💎 premium quality only.</span></div>
+    <div class="ticker__item"><span class="user">Anon#2134:</span> <span class="msg">super fast access, no bs.</span></div>
+    <div class="ticker__item"><span class="user">Anon#5542:</span> <span class="msg">the secret vault is insane 😮‍💨</span></div>
+  </div>
+</div>
+
+<script src="site.js"></script>
+</body>
+</html>
